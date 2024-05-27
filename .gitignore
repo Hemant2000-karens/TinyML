@@ -1,0 +1,43 @@
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+**/__pycache__/
+
+# Ignore Jupyter Notebook output
+*.ipynb~
+
+# Ignore static site generator files (Hugo)
+public/
+resources/
+node_modules/
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignore any additional build artifacts
+build/
+dist/
